@@ -3,7 +3,10 @@ Esse é um webchat simples, foi criado utilizando a [documentação do SocketIO]
 
 # Como usar
 1. Faça o download do repositório
+    Modelo
     - git clone git@github.com:gabrielpetry/webchat.git
+    Usado neste projeto:
+    - git clone git@github.com:jose-guerreiro/webchat.git'
 2. Instale as depêndencias
     - npm install
 3. Inicia o servidor
