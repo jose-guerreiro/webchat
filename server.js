@@ -17,13 +17,14 @@ io.on('connection', function(socket){
 });
 
 // inicia o servidor na porta informada 3000
-/*const PORT = process.env.PORT || process.env.WEBCHAT_SERVER || 3000;
+process.env.WEBCHAT_SERVER = 21019;
+const PORT = process.env.PORT || process.env.WEBCHAT_SERVER || 3000;
 http.listen(3000, function(){
   console.log('Servidor rodando em: http://localhost:3000');
-});*/
+});
 
 // inicia o servidor na porta informada 21019
-const PORT = process.env.PORT || process.env.WEBCHAT_SERVER || 21019;
+/*const PORT = process.env.PORT || process.env.WEBCHAT_SERVER || 21019;
 http.listen(3000, function(){
   console.log('Servidor rodando em: http://www.ssaaodontonode.kinghost.net:21201/');
-});
+});*/
